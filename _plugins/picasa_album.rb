@@ -29,7 +29,7 @@ module Jekyll
       html = "<#{@config['gallery_tag']} class=\"#{@config['gallery_class']}\">\n"
       #html += "<#{@config['title_tag']}>#{album.title}</#{@config['title_tag']}>\n"
       album.photos.each do |photo|
-        html += "<a href=\"#{photo.url}\" rel=\"#{@config['a_rel']}\" class=\"swipebox\" title=\"#{album.title}\">"
+        html += "<a href=\"#{photo.url}\" rel=\"#{@config['a_rel']}\" class=\"swipebox\" title=\"#{photo.title}\">"
         #html += "<a rel=\"#{@config['a_rel']}\" class=\"#{@config['a_class']}\" target=\"#{@config['a_target']}\" href=\"#{photo.url}\">"
         html += "<img rel=\"#{@config['img_rel']}\" class=\"#{@config['img_class']}\" src=\"#{photo.thumbnail}\"/>"
         html += "</a>\n"

@@ -2,10 +2,9 @@
 layout: page
 title: mcmiles.net
 tagline: Plymouth to Hanoi, the slow way round!
+description: "Circumstance must not be permitted to interfere with adventure"
 ---
 {% include JB/setup %}
-
-####Circumstance must not be permitted to interfere with adventure.
 
 Like a lot of people, I was finding it impossible to quit my job and live the dream of open roads and high seas adventures. People kept telling me to make better use of my weekends, so now, I'm going to.
 
@@ -19,7 +18,7 @@ When my beautiful wife isn't <a href="http://www.yogaloft.co.uk">busy being bend
 
 <ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.description }}</a></li>
   {% endfor %}
 </ul>
 

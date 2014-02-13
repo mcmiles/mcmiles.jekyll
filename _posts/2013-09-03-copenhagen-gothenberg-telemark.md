@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Copenhagen, Gothenberg, Telemark"
-description: ""
+title: mcmiles.net
+tagline: Plymouth to Hanoi, the slow way round!
+description: "Copenhagen, Gothenberg, Telemark"
 image: "https://lh5.googleusercontent.com/-MZC4MgqPnUo/UiYhuIwjbOE/AAAAAAAAXR4/FJiaNrBnGWw/s240-c/TelemarkRoadTrip.jpg"
 category: "Biking Europe"
 tags: [Biking,Norway,Denmark,Sweden]

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Plymouth, London"
-description: ""
+title: mcmiles.net
+tagline: Plymouth to Hanoi, the slow way round!
+description: "Plymouth, London"
 category: "Biking Europe"
 tags: [Biking,UK]
 ---

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "London, Harwich"
-description: ""
+title: mcmiles.net
+tagline: Plymouth to Hanoi, the slow way round!
+description: "London, Harwich"
 category: "Biking Europe"
 tags: [Biking,UK]
 ---
