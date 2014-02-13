@@ -1,9 +1,13 @@
+<!-- twitter -->
+<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<!-- google plus -->
+<script type="text/javascript">(function() { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/platform.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();</script>
+<div class="g-plusone" data-annotation="inline" data-action="share"></div>
+
+<!-- facebook -->
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId={{ site.JB.comments.facebook.appid }}";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-comments" data-href="{{ site.production_url }}" data-num-posts="{{ site.JB.comments.facebook.num_posts }}" data-width="{{ site.JB.comments.facebook.width }}" data-colorscheme="{{ site.JB.comments.facebook.colorscheme }}"></div>
+<script type="text/javascript">(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="{{ site.production_url }}{{ page.url }}" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+<div class="fb-comments" data-href="{{ site.production_url }}{{ page.url }}" data-numposts="{{ site.JB.comments.facebook.num_posts }}" data-colorscheme="{{ site.JB.comments.facebook.colorscheme }}"></div>

@@ -1,46 +1,26 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: mcmiles.net
+tagline: Plymouth to Hanoi, the slow way round!
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+####Circumstance must not be permitted to interfere with adventure.
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+Like a lot of people, I was finding it impossible to quit my job and live the dream of open roads and high seas adventures. People kept telling me to make better use of my weekends, so now, I'm going to.
 
-## Update Author Attributes
+I'm taking my &pound;800, 2001 Kawasaki ER5, with 40k already on the clock, from Plymouth, Devon, to Hanoi. Yes, the one in Vietnam. Since I've already ridden it up to London, the journey has already begun. :)
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+Much, if not all, of our progress will be on weekends, because that's the time I have available. I will try to reach an airport each Sunday evening, where I will secure the bike to a lamp-post and buy a return ticket to London. Come Friday, I'll use my return flight to pick up the bike and make another weekend of progress towards reaching Vietnam.
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+I'm strapping a new Contour +2 HD camera to my head to record the endeavour, so all you armchair adventurers can laugh along with everything that's bound to go wrong.
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+When my beautiful wife isn't <a href="http://www.yogaloft.co.uk">busy being bendy</a>, she'll join me two-up in the sunshine.
 
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 
